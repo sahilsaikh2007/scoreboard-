@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+}
+h1 {
+    color: #ecf3f8;
+    font-family: Encode Sans Expanded;
+    font-weight: 800;
+    margin: 0;
+    
+}
+#reset-btn {
+ background-color: #f74661;
+  border: 1px solid #7c84a7; 
+  color: #ecf3f8;
+  font-family: Encode Sans Expanded;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+}
+ /* .container{
+     padding: 50px 0px ; 
+}  */
+
+.score-counter {
+    background-color:#182042 ;
+    width: 600px; 
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* margin: 10px; */
+    padding: 20px 0 20px 0;
+    align-items: center;
+    border-radius: 8px 8px  0 0;
+    /* justify-content: center; */
+    justify-content: space-around;
+    
+    /* flex-direction: column; */
+}
+.home{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+/* align-items: space-around; */
+/* margin: auto 0px; */
+
+
+}
+#guest {
+
+}
+.score {
+    font-family: digi ;
+    font-size: 7rem;
+    font-weight: 800;
+ background-color: #090000;
+ -border-radius: 5px;
+ padding: 0px 0px 0px 0px;
+ margin: 7px 0px 15px 0;
+ display: block;
+    color: #f74661;
+ 
+}
+#score1{
+    padding: 0px 0px 0 0;
+}
+.btn-style{
+    background-color: #182042;
+    border: 1px solid #7c84a7;
+    padding: 5px ;
+    color:#7c84a7 ;
+}
+
+.reset-btn-container{
+  width: 100%;
+  background-color: #182042;
+border-radius: 0 0 8px 8px;
+padding: 0 0 30px ;
+}
+
+
+/* fonts name Magnetes
+Belle Sans expended */
+
+
+
+
+
+.encode-sans-expanded-thin {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.encode-sans-expanded-extralight {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.encode-sans-expanded-light {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.encode-sans-expanded-regular {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.encode-sans-expanded-medium {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.encode-sans-expanded-semibold {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.encode-sans-expanded-bold {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.encode-sans-expanded-extrabold {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.encode-sans-expanded-black {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+    font-family: digi;
+    src: url(ds_digital/DS-DIGIT.TTF);
+}
